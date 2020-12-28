@@ -1,0 +1,200 @@
+@import "footer";
+:root{
+    --primary:#9356DC;
+    --secondary:#FF79DA;
+    --tertiaire:#99E2D0;
+    --cover:#f6f6f6;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.header .header_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    background-color: var(--cover);
+}
+
+.header .header_img img{
+    width: 45%;
+
+}
+.header .header_position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #eaeaea;
+    box-shadow: inset 0 4px 8px -4px rgba(0,0,0,.28);
+    
+}
+.header .header_position h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    margin-left:15px;
+    margin-top: 5px;
+
+
+}
+.header .header_position i{
+    font-size: 1rem;
+    display: inline-block;
+}
+.section1{
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cover);
+}
+.section1 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section1 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.section1 .restaurents{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to bottom , var(--secondary) , var(--primary) );
+    padding: 15px 20px;
+    border-radius: 40px;
+    display: inline-block;
+    width: 78%;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.section2{
+    margin-top: 40px;
+
+}
+.section2 h2{
+    margin: 0 0 20px 20px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.section2 .step{
+    width: 90vw;
+    padding: 20px;
+    background-color: var(--cover);
+    border-radius: 20px;
+    box-shadow:  0 4px 14px -4px rgba(0,0,0,.28);
+    margin-bottom: 20px;
+    position: relative;
+}
+.section2 .step .step_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.section2 .step .step_content i{
+    color: rgb(117, 110, 110);
+    font-size: 1.2rem;
+}
+.section2 .step p{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.section2 .step span{
+    position: absolute;
+    left: -3%;
+    background-color: #9356DC;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+.section2 .step_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    margin-top: 40px;
+
+}
+
+.section3 h2{
+    margin: 0 0 20px 20px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.section3 .card{
+    width: 90vw;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 1px;
+    margin: 20px auto;
+    position: relative;
+}
+.section3 .card h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: #000;
+}
+.section3 .card p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.section3 .card span{
+    background-color: var(--tertiaire);
+    color: rgb(93, 158, 85);
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+.section3 .card i{
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 15%;
+    right: 8%;
+    color: #000;
+}
+.section3 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
