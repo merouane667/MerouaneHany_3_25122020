@@ -1,13 +1,23 @@
+@import "media";
 footer{
     background-color: #353535;
     color: #fff;
     padding: 20px ;
     margin-top: 60px;
+    @include tablette{
+        padding: 20px 60px ;
+    }
+    @include desktop{
+        padding: 20px 80px ;
+    }
 }
 footer h2{
     margin-bottom: 20px;
     font-family: 'Shrikhand', cursive;
     font-size: 1.2rem;
+    @include desktop{
+        font-size: 1.7rem;
+    }
 }
 footer ul{
     list-style: none;
@@ -20,4 +30,7 @@ footer ul li a{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    @include desktop{
+        font-size: 1.5rem;
+    }
 }

@@ -3,11 +3,20 @@ footer {
   color: #fff;
   padding: 20px;
   margin-top: 60px; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    footer {
+      padding: 20px 60px; } }
+  @media only screen and (min-width: 1200px) {
+    footer {
+      padding: 20px 80px; } }
 
 footer h2 {
   margin-bottom: 20px;
   font-family: 'Shrikhand', cursive;
   font-size: 1.2rem; }
+  @media only screen and (min-width: 1200px) {
+    footer h2 {
+      font-size: 1.7rem; } }
 
 footer ul {
   list-style: none; }
@@ -20,6 +29,9 @@ footer ul li a {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem; }
+  @media only screen and (min-width: 1200px) {
+    footer ul li a {
+      font-size: 1.5rem; } }
 
 :root {
   --primary: #9356DC;
@@ -43,6 +55,12 @@ header {
 header .header_img {
   width: 45%;
   margin: 0 auto; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    header .header_img {
+      width: 35%; } }
+  @media only screen and (min-width: 1200px) {
+    header .header_img {
+      width: 15%; } }
 
 header .header_img img {
   width: 100%; }
@@ -58,7 +76,7 @@ header i {
   font-size: 1.4rem; }
 
 .img_cover {
-  width: 100vw;
+  width: 100%;
   height: 40vh;
   position: relative; }
 
@@ -68,7 +86,7 @@ header i {
   object-fit: cover; }
 
 .special {
-  width: 100vw;
+  width: 100%;
   border-radius: 30px 30px 0 0;
   background-color: var(--cover);
   display: flex;
@@ -77,17 +95,38 @@ header i {
   padding: 40px 0;
   position: absolute;
   bottom: -20%; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .special {
+      bottom: -15%; } }
+  @media only screen and (min-width: 1200px) {
+    .special {
+      bottom: -15%; } }
 
 .special h1 {
   font-family: 'Shrikhand', cursive;
   font-weight: 500;
   font-size: 1.5rem; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .special h1 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .special h1 {
+      font-size: 2.5rem; } }
 
 .special span i {
   font-size: 1.5rem; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .special span i {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .special span i {
+      font-size: 2.5rem; } }
 
 .menu .part {
   margin-top: 14%; }
+  @media only screen and (min-width: 1200px) {
+    .menu .part {
+      margin-top: 6%; } }
 
 .menu .part > h3 {
   font-family: 'Roboto', sans-serif;
@@ -95,7 +134,15 @@ header i {
   font-size: 1rem;
   color: rgba(15, 10, 10, 0.596);
   margin: 0 0 20px 20px;
-  position: relative; }
+  position: relative;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part > h3 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part > h3 {
+      font-size: 2rem;
+      margin: 0 0 40px 40px; } }
 
 .menu .part > h3::after {
   content: "";
@@ -105,6 +152,12 @@ header i {
   position: absolute;
   bottom: -5px;
   left: 0; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part > h3::after {
+      width: 5%; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part > h3::after {
+      width: 3%; } }
 
 .menu .part .element {
   background-color: #fff;
@@ -114,6 +167,12 @@ header i {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.055);
   padding: 12px 4px;
   position: relative; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part .element {
+      padding: 18px 10px; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part .element {
+      padding: 24px 16px; } }
 
 .menu .part .element h3 {
   font-family: 'Roboto', sans-serif;
@@ -121,6 +180,12 @@ header i {
   font-size: 1rem;
   margin-left: 10px;
   color: #000; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part .element h3 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part .element h3 {
+      font-size: 2rem; } }
 
 .menu .part .element p {
   font-family: 'Roboto', sans-serif;
@@ -133,6 +198,12 @@ header i {
   overflow: hidden;
   white-space: nowrap;
   width: 80%; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part .element p {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part .element p {
+      font-size: 2rem; } }
 
 .menu .part .element .price {
   position: absolute;
@@ -141,6 +212,12 @@ header i {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   color: rgba(15, 10, 10, 0.753); }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .part .element .price {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .part .element .price {
+      font-size: 2rem; } }
 
 .menu .button_order {
   display: flex;
@@ -159,3 +236,12 @@ header i {
   width: 55%;
   margin: 40px auto;
   text-align: center; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .menu .button_order .order {
+      width: 25%;
+      padding: 20px 10px; } }
+  @media only screen and (min-width: 1200px) {
+    .menu .button_order .order {
+      width: 15%;
+      padding: 20px 10px;
+      margin: 80px auto; } }

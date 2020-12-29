@@ -1,4 +1,5 @@
 @import "footer";
+@import "media";
 :root{
     --primary:#9356DC;
     --secondary:#FF79DA;
@@ -20,10 +21,22 @@
     align-items: center;
     padding: 15px 0;
     background-color: var(--cover);
+    @include tablette{
+        padding: 30px 0;
+    }
+    @include desktop{
+        padding: 30px 0;
+    }
 }
 
 .header .header_img img{
     width: 45%;
+    @include tablette{
+        width: 35%;
+    }
+    @include desktop{
+        width: 15%;
+    }
 
 }
 .header .header_position{
@@ -42,12 +55,24 @@
     display: inline-block;
     margin-left:15px;
     margin-top: 5px;
+    @include tablette{
+        font-size: 1.4rem;
+    }
+    @include desktop{
+        font-size: 1.4rem;
+    }
 
 
 }
 .header .header_position i{
     font-size: 1rem;
     display: inline-block;
+    @include tablette{
+        font-size: 1.4rem;
+    }
+    @include desktop{
+        font-size: 1.4rem;
+    }
 }
 .section1{
     padding: 40px 40px;
@@ -62,6 +87,12 @@
     font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
+    @include tablette{
+        font-size: 1.6rem;
+    }
+    @include desktop{
+        font-size: 1.6rem;
+    }
 }
 .section1 p{
     font-family: 'Roboto', sans-serif;
@@ -80,6 +111,14 @@
     width: 78%;
     margin-top: 40px;
     text-align: center;
+    @include tablette{
+        width: 35%;
+
+    }
+    @include desktop{
+        width: 20%;
+
+    }
     
 }
 .section2{
@@ -90,6 +129,14 @@
     margin: 0 0 20px 20px ;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    @include tablette{
+        font-size: 1.6rem;
+    }
+    @include desktop{
+        font-size: 1.6rem;
+        margin: 0 0 45px 45px;
+
+    }
 }
 .section2 .step{
     width: 90vw;
@@ -99,6 +146,12 @@
     box-shadow:  0 4px 14px -4px rgba(0,0,0,.28);
     margin-bottom: 20px;
     position: relative;
+    @include tablette{
+        width: 40vw;
+    }
+    @include desktop{
+        width: 25vw;
+    }
 }
 .section2 .step .step_content{
     display: flex;
@@ -129,6 +182,12 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    @include tablette{
+        left: -5%;
+    }
+    @include desktop{
+        left: -3%;
+    }
 
 }
 .section2 .step_flex{
@@ -136,17 +195,46 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include tablette{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    @include desktop{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
 
 .section3{
     margin-top: 40px;
-
 }
 
 .section3 h2{
     margin: 0 0 20px 20px ;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    @include tablette{
+        font-size: 1.6rem;
+    }
+    @include desktop{
+        font-size: 1.6rem;
+        margin: 0 0 45px 45px;
+
+    }
+}
+.section3 .cards{
+    margin: auto;
+    width: 100vw;
+    @include tablette{
+        width: 80vw;
+    }
+    @include desktop{
+        width: 80vw;
+    }
 }
 
 .section3 .card{
@@ -156,6 +244,17 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 1px;
     margin: 20px auto;
     position: relative;
+    @include tablette{
+        margin: 10px;
+        width: 37vw;
+        display: inline-block
+    }
+    @include desktop{
+        margin: 10px;
+        width: 37vw;
+        display: inline-block
+    }
+
 }
 .section3 .card h3{
     font-family: 'Roboto', sans-serif;

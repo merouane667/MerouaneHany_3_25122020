@@ -3,11 +3,20 @@ footer {
   color: #fff;
   padding: 20px;
   margin-top: 60px; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    footer {
+      padding: 20px 60px; } }
+  @media only screen and (min-width: 1200px) {
+    footer {
+      padding: 20px 80px; } }
 
 footer h2 {
   margin-bottom: 20px;
   font-family: 'Shrikhand', cursive;
   font-size: 1.2rem; }
+  @media only screen and (min-width: 1200px) {
+    footer h2 {
+      font-size: 1.7rem; } }
 
 footer ul {
   list-style: none; }
@@ -20,6 +29,9 @@ footer ul li a {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem; }
+  @media only screen and (min-width: 1200px) {
+    footer ul li a {
+      font-size: 1.5rem; } }
 
 :root {
   --primary:#9356DC;
@@ -39,9 +51,21 @@ footer ul li a {
   align-items: center;
   padding: 15px 0;
   background-color: var(--cover); }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .header .header_img {
+      padding: 30px 0; } }
+  @media only screen and (min-width: 1200px) {
+    .header .header_img {
+      padding: 30px 0; } }
 
 .header .header_img img {
   width: 45%; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .header .header_img img {
+      width: 35%; } }
+  @media only screen and (min-width: 1200px) {
+    .header .header_img img {
+      width: 15%; } }
 
 .header .header_position {
   display: flex;
@@ -58,10 +82,22 @@ footer ul li a {
   display: inline-block;
   margin-left: 15px;
   margin-top: 5px; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .header .header_position h3 {
+      font-size: 1.4rem; } }
+  @media only screen and (min-width: 1200px) {
+    .header .header_position h3 {
+      font-size: 1.4rem; } }
 
 .header .header_position i {
   font-size: 1rem;
   display: inline-block; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .header .header_position i {
+      font-size: 1.4rem; } }
+  @media only screen and (min-width: 1200px) {
+    .header .header_position i {
+      font-size: 1.4rem; } }
 
 .section1 {
   padding: 40px 40px;
@@ -76,6 +112,12 @@ footer ul li a {
   font-weight: 600;
   text-align: center;
   margin-bottom: 15px; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section1 h1 {
+      font-size: 1.6rem; } }
+  @media only screen and (min-width: 1200px) {
+    .section1 h1 {
+      font-size: 1.6rem; } }
 
 .section1 p {
   font-family: 'Roboto', sans-serif;
@@ -94,6 +136,12 @@ footer ul li a {
   width: 78%;
   margin-top: 40px;
   text-align: center; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section1 .restaurents {
+      width: 35%; } }
+  @media only screen and (min-width: 1200px) {
+    .section1 .restaurents {
+      width: 20%; } }
 
 .section2 {
   margin-top: 40px; }
@@ -102,6 +150,13 @@ footer ul li a {
   margin: 0 0 20px 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 600; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section2 h2 {
+      font-size: 1.6rem; } }
+  @media only screen and (min-width: 1200px) {
+    .section2 h2 {
+      font-size: 1.6rem;
+      margin: 0 0 45px 45px; } }
 
 .section2 .step {
   width: 90vw;
@@ -111,6 +166,12 @@ footer ul li a {
   box-shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.28);
   margin-bottom: 20px;
   position: relative; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section2 .step {
+      width: 40vw; } }
+  @media only screen and (min-width: 1200px) {
+    .section2 .step {
+      width: 25vw; } }
 
 .section2 .step .step_content {
   display: flex;
@@ -140,12 +201,30 @@ footer ul li a {
   align-items: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 600; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section2 .step span {
+      left: -5%; } }
+  @media only screen and (min-width: 1200px) {
+    .section2 .step span {
+      left: -3%; } }
 
 .section2 .step_flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section2 .step_flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center; } }
+  @media only screen and (min-width: 1200px) {
+    .section2 .step_flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center; } }
 
 .section3 {
   margin-top: 40px; }
@@ -154,6 +233,23 @@ footer ul li a {
   margin: 0 0 20px 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 600; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section3 h2 {
+      font-size: 1.6rem; } }
+  @media only screen and (min-width: 1200px) {
+    .section3 h2 {
+      font-size: 1.6rem;
+      margin: 0 0 45px 45px; } }
+
+.section3 .cards {
+  margin: auto;
+  width: 100vw; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section3 .cards {
+      width: 80vw; } }
+  @media only screen and (min-width: 1200px) {
+    .section3 .cards {
+      width: 80vw; } }
 
 .section3 .card {
   width: 90vw;
@@ -162,6 +258,16 @@ footer ul li a {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 1px;
   margin: 20px auto;
   position: relative; }
+  @media only screen and (min-width: 734px) and (max-width: 1199px) {
+    .section3 .card {
+      margin: 10px;
+      width: 37vw;
+      display: inline-block; } }
+  @media only screen and (min-width: 1200px) {
+    .section3 .card {
+      margin: 10px;
+      width: 37vw;
+      display: inline-block; } }
 
 .section3 .card h3 {
   font-family: 'Roboto', sans-serif;
