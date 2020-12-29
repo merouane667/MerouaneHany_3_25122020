@@ -60,10 +60,12 @@ header i {
 .img_cover {
   width: 100vw;
   height: 40vh;
-  background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
   position: relative; }
+
+.img_cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .special {
   width: 100vw;
