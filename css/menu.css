@@ -1,0 +1,159 @@
+footer {
+  background-color: #353535;
+  color: #fff;
+  padding: 20px;
+  margin-top: 60px; }
+
+footer h2 {
+  margin-bottom: 20px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.2rem; }
+
+footer ul {
+  list-style: none; }
+
+footer ul li {
+  margin-bottom: 6px; }
+
+footer ul li a {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
+
+:root {
+  --primary: #9356DC;
+  --secondary: #FF79DA;
+  --tertiaire: #99E2D0;
+  --cover: #f6f6f6; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  background-color: var(--cover); }
+
+header {
+  padding: 10px 0;
+  position: relative; }
+
+header .header_img {
+  width: 45%;
+  margin: 0 auto; }
+
+header .header_img img {
+  width: 100%; }
+
+header a {
+  color: #000; }
+
+header i {
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  transform: translateY(50%);
+  font-size: 1.4rem; }
+
+.img_cover {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+.special {
+  width: 100vw;
+  border-radius: 30px 30px 0 0;
+  background-color: var(--cover);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  position: absolute;
+  bottom: -20%; }
+
+.special h1 {
+  font-family: 'Shrikhand', cursive;
+  font-weight: 500;
+  font-size: 1.5rem; }
+
+.special span i {
+  font-size: 1.5rem; }
+
+.menu .part {
+  margin-top: 14%; }
+
+.menu .part > h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(15, 10, 10, 0.596);
+  margin: 0 0 20px 20px;
+  position: relative; }
+
+.menu .part > h3::after {
+  content: "";
+  width: 12%;
+  height: 3px;
+  background-color: var(--tertiaire);
+  position: absolute;
+  bottom: -5px;
+  left: 0; }
+
+.menu .part .element {
+  background-color: #fff;
+  width: 90vw;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.055);
+  padding: 12px 4px;
+  position: relative; }
+
+.menu .part .element h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 10px;
+  color: #000; }
+
+.menu .part .element p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80%; }
+
+.menu .part .element .price {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: rgba(15, 10, 10, 0.753); }
+
+.menu .button_order {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.menu .button_order .order {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(to bottom, var(--secondary), var(--primary));
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.26);
+  padding: 15px 20px;
+  border-radius: 40px;
+  display: inline-block;
+  width: 55%;
+  margin: 40px auto;
+  text-align: center; }
