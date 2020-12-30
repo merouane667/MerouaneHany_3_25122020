@@ -187,13 +187,17 @@ footer ul li a {
   display: inline-block;
   width: 78%;
   margin-top: 40px;
-  text-align: center; }
+  text-align: center;
+  transition: all 0.5s ease-in-out; }
   @media only screen and (min-width: 734px) and (max-width: 1199px) {
     .section1 .restaurents {
       width: 35%; } }
   @media only screen and (min-width: 1200px) {
     .section1 .restaurents {
       width: 20%; } }
+  .section1 .restaurents:hover {
+    background: linear-gradient(to bottom, #f529bb, #6d11dd);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.726); }
 
 .section2 {
   margin-top: 40px; }
@@ -223,7 +227,7 @@ footer ul li a {
       width: 40vw; } }
   @media only screen and (min-width: 1200px) {
     .section2 .step {
-      width: 25vw; } }
+      width: 22vw; } }
 
 .section2 .step .step_content {
   display: flex;
@@ -276,7 +280,10 @@ footer ul li a {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-evenly;
-      align-items: center; } }
+      align-items: center;
+      width: 84vw;
+      margin: 0 auto;
+      padding-right: 2%; } }
 
 .section3 {
   margin-top: 40px; }
@@ -318,7 +325,7 @@ footer ul li a {
   @media only screen and (min-width: 1200px) {
     .section3 .card {
       margin: 10px;
-      width: 37vw;
+      width: 38vw;
       display: inline-block; } }
 
 .section3 .card h3 {
@@ -348,12 +355,22 @@ footer ul li a {
   top: 4%;
   right: 4%; }
 
-.section3 .card i {
+.section3 .card .fa {
   font-size: 1.5rem;
   position: absolute;
   bottom: 15%;
   right: 8%;
-  color: #000; }
+  background: #413b3b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  transition: opacity 1s ease-in-out; }
+
+.section3 .card .fa:hover {
+  background: linear-gradient(to bottom, var(--secondary), var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1; }
 
 .section3 img {
   width: 100%;
