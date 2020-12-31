@@ -1,4 +1,15 @@
-footer {
+:root {
+  --primary:#9356DC;
+  --secondary:#FF79DA;
+  --tertiaire:#99E2D0;
+  --cover:#f6f6f6; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+  footer {
   background-color: #353535;
   color: #fff;
   padding: 20px;
@@ -8,7 +19,7 @@ footer {
       padding: 20px 60px; } }
   @media only screen and (min-width: 1200px) {
     footer {
-      padding: 20px 80px; } }
+      padding: 20px 10%; } }
 
 footer h2 {
   margin-bottom: 20px;
@@ -33,17 +44,6 @@ footer ul li a {
     footer ul li a {
       font-size: 1.5rem; } }
 
-:root {
-  --primary:#9356DC;
-  --secondary:#FF79DA;
-  --tertiaire:#99E2D0;
-  --cover:#f6f6f6; }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none; }
 
 .container {
   position: fixed;
@@ -212,7 +212,7 @@ footer ul li a {
   @media only screen and (min-width: 1200px) {
     .section2 h2 {
       font-size: 1.6rem;
-      margin: 0 0 45px 45px; } }
+      margin: 0 0 45px 10%; } }
 
 .section2 .step {
   width: 90vw;
@@ -298,7 +298,7 @@ footer ul li a {
   @media only screen and (min-width: 1200px) {
     .section3 h2 {
       font-size: 1.6rem;
-      margin: 0 0 45px 45px; } }
+      margin: 0 0 45px 10%; } }
 
 .section3 .cards {
   margin: auto;

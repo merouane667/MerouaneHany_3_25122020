@@ -152,13 +152,13 @@ header i {
 
     @include desktop {
         font-size: 2rem;
-        margin: 0 0 40px 40px;
+        margin: 0 0 40px 10%;
     }
 }
 
 .menu .part>h3::after {
     content: "";
-    width: 12%;
+    width: 40px;
     height: 3px;
     background-color: var(--tertiaire);
     position: absolute;
@@ -166,11 +166,11 @@ header i {
     left: 0;
 
     @include tablette {
-        width: 5%;
+        width: 60px;
     }
 
     @include desktop {
-        width: 3%;
+        width: 80px;
     }
 }
 
@@ -224,7 +224,7 @@ header i {
     background: #a8e8d7;
     border-radius: 0 8px 8px 0;
     color: #fff;
-    transform: translateX(100%);
+    transform: translateX(105%);
     transition: all 0.5s ease-in-out 0.1s ;
     @include desktop {
         transform: translateX(115%);
@@ -330,6 +330,11 @@ header i {
     width: 55%;
     margin: 40px auto;
     text-align: center;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background: linear-gradient(to bottom , #f529bb , #6d11dd );
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.726);
+    }
 
     @include tablette {
         width: 25%;
